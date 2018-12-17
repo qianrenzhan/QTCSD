@@ -11,7 +11,6 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = QTCSD
 TEMPLATE = app
 
-QMAKE_CXXFLAGS += /MP
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked as deprecated (the exact warnings
@@ -95,6 +94,9 @@ INCLUDEPATH += account   \
 
 win32{
 message("compile for windows")
+
+QMAKE_CXXFLAGS += /MP
+
 # opencv
 INCLUDEPATH+= D:\OpenCV\opencv\build\include  \
             D:\OpenCV\opencv\build\include\opencv    \

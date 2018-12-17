@@ -1,8 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include <QSound>
-#include <QUuid>
-#include <QSqlTableModel>
+#include "stable.h"
 #include "mainwindow.h"
 
 

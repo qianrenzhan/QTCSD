@@ -2,16 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "QFileDialog"
-#include <QTimer>
-
-#include <QTime>
-#include <QColor>
-#include <QMessageBox>
-#include <QInputDialog>
-#include <QLineEdit>
-#include <QPalette>
-
 
 #if defined (Q_OS_WIN32)
 #include <conio.h>
@@ -28,8 +18,6 @@
 #include "account.h"
 #include "taskstatistics.h"
 #include "accountlab.h"
-
-
 
 #define   CALCCCPARAM_LENGTH               (sizeof(VxInt16) * 9)
 

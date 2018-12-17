@@ -5,5 +5,6 @@
 #include <QtGui>
 #include <QtSql>
 #include <QtWidgets>
+#include <QtMultimedia>
 
 #endif // STABLE_H
