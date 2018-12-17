@@ -2,9 +2,11 @@
 #define SIGNUPDIALOG_H
 
 #include <QDialog>
-#include <QSqlTableModel>
+
 #include "account.h"
 #include "accountlab.h"
+
+class QSqlTableModel;
 
 namespace Ui {
 class SignUpDialog;

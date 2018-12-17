@@ -1,15 +1,7 @@
 #ifndef BASEHELPER_H
 #define BASEHELPER_H
 
-#include <QMessageBox>
 #include <QSqlDatabase>
-#include <QSqlError>
-#include <QSqlQuery>
-#include <QDebug>
-#include <QVariant>
-#include <QString>
-
-class QSqlDatabase;
 
 class DataBaseHelper
 {

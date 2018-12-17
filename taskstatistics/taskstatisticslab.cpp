@@ -1,5 +1,14 @@
 #include "taskstatisticslab.h"
+#include <QList>
+#include <QSqlDatabase>
+#include <QSqlQuery>
+#include <QSqlError>
+#include <QDebug>
+#include <QUuid>
+#include <QMessageBox>
+#include <QDateTime>
 
+#include "databasehelper.h"
 
 TaskStatisticsLab* TaskStatisticsLab::pTaskStatisticsLab = NULL;
 

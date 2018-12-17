@@ -1,6 +1,9 @@
 #include "signupdialog.h"
 #include "ui_signupdialog.h"
 
+#include "stable.h"
+#include "databasehelper.h"
+
 SignUpDialog::SignUpDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::SignUpDialog)

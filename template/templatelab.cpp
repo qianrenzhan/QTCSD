@@ -1,4 +1,12 @@
 #include "templatelab.h"
+#include <QMessageBox>
+//#include <QList>
+//#include <QSqlDatabase>
+#include <QSqlQuery>
+#include <QSqlError>
+#include <QDebug>
+
+
 
 TemplateLab* TemplateLab::pTemplateLab = NULL;
 

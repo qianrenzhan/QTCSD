@@ -1,5 +1,7 @@
 #include "accountlab.h"
+#include "databasehelper.h"
 
+#include "stable.h"
 
 AccountLab* AccountLab::pAccountLab = NULL;
 

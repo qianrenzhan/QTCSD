@@ -1,9 +1,10 @@
 #ifndef TASKSTATISTICS_H
 #define TASKSTATISTICS_H
 
-#include <QString>
-#include <QList>
-#include <QUuid>
+//#include <QString>
+//#include <QList>
+//#include <QUuid>
+#include "stable.h"
 
 class Task
 {

@@ -1,15 +1,9 @@
 #ifndef QMYTREEWIDGET_H
 #define QMYTREEWIDGET_H
 
-#include <QTreeWidget>
-#include <QAction>
-#include <QUuid>
-#include <QInputDialog>
-#include <QDebug>
-#include <QMenu>
-#include <QList>
 #include "templatetree.h"
 #include "templatetreelab.h"
+#include <QTreeWidget>
 
 class QMyTreeWidget : public QTreeWidget
 {

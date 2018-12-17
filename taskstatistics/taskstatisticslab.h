@@ -1,16 +1,9 @@
 #ifndef TASKSTATISTICSLAB_H
 #define TASKSTATISTICSLAB_H
 
-#include <QList>
-#include <QSqlDatabase>
-#include <QSqlQuery>
-#include <QSqlError>
-#include <QDebug>
-#include <QUuid>
-#include <QMessageBox>
-#include <QDateTime>
 #include "taskstatistics.h"
-#include "databasehelper.h"
+
+class DataBaseHelper;
 
 class TaskStatisticsLab
 {

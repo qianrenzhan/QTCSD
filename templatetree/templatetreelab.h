@@ -1,14 +1,9 @@
 #ifndef TEMPLATETREELAB_H
 #define TEMPLATETREELAB_H
 
-#include <QList>
-#include <QSqlDatabase>
-#include <QSqlQuery>
-#include <QSqlError>
-#include <QDebug>
-
 #include "templatetree.h"
-#include "databasehelper.h"
+
+class DataBaseHelper;
 
 class TemplateTreeLab
 {

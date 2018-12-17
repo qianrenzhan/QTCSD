@@ -1,12 +1,9 @@
 #ifndef COLORSPACELAB_H
 #define COLORSPACELAB_H
-#include <QList>
-#include <QSqlDatabase>
-#include <QSqlQuery>
-#include <QSqlError>
-#include <QDebug>
+
 #include "colorspace.h"
-#include "databasehelper.h"
+
+class DataBaseHelper;
 
 class ColorSpaceLab
 {

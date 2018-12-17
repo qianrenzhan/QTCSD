@@ -1,12 +1,10 @@
 #ifndef ACCOUNTLAB_H
 #define ACCOUNTLAB_H
-#include <QList>
-#include <QSqlDatabase>
-#include <QSqlQuery>
-#include <QSqlError>
-#include <QDebug>
+
 #include "account.h"
-#include "databasehelper/databasehelper.h"
+
+class DataBaseHelper;
+
 
 class AccountLab
 {

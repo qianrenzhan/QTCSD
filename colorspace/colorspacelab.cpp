@@ -1,4 +1,13 @@
 #include "colorspacelab.h"
+#include "databasehelper.h"
+
+//#include <QSqlDatabase>
+//#include <QSqlQuery>
+//#include <QSqlError>
+//#include <QDebug>
+//#include <QMessageBox>
+#include "stable.h"
+
 
 ColorSpaceLab* ColorSpaceLab::pColorSpaceLab = NULL;
 

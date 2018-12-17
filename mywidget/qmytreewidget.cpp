@@ -1,5 +1,7 @@
 #include "qmytreewidget.h"
 
+#include "stable.h"
+
 QMyTreeWidget::QMyTreeWidget(QWidget *parent):QTreeWidget(parent)
 {
     initTreeWidget();

@@ -1,5 +1,13 @@
 #include "databasehelper.h"
 
+#include <QMessageBox>
+
+#include <QSqlError>
+#include <QSqlQuery>
+#include <QDebug>
+//#include <QVariant>
+//#include <QString>
+
 DataBaseHelper* DataBaseHelper::pBaseHelper = NULL;
 
 DataBaseHelper* DataBaseHelper::get()

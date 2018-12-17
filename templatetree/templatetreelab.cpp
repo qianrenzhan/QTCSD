@@ -1,5 +1,13 @@
 #include "templatetreelab.h"
 
+#include <QMessageBox>
+#include <QSqlDatabase>
+#include <QSqlQuery>
+#include <QSqlError>
+#include <QDebug>
+
+#include "databasehelper.h"
+
 TemplateTreeLab* TemplateTreeLab::pTemplateTreeLab = NULL;
 
 TemplateTreeLab::TemplateTreeLab()

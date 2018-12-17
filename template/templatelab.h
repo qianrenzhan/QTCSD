@@ -1,12 +1,6 @@
 #ifndef TEMPLATELAB_H
 #define TEMPLATELAB_H
 
-#include <QList>
-#include <QSqlDatabase>
-#include <QSqlQuery>
-#include <QSqlError>
-#include <QDebug>
-
 #include "template.h"
 #include "databasehelper.h"
 

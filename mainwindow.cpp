@@ -80,7 +80,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
 
     //statusbar
     QLabel *aixLabel;
-    aixLabel = new QLabel("就绪");
+    aixLabel = new QLabel("Ready");
 
     //Optional
     statusBar()->setStyleSheet(QString("QStatusBar::item{border: 0px}")); // 设置不显示label的边框
@@ -89,9 +89,9 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     statusBar()->addWidget(aixLabel, 1);
 
 
-    QLabel *per1 = new QLabel("相机未连接", this);
+    QLabel *per1 = new QLabel("Camera is not connected", this);
     per1->setStyleSheet("color: red;border-style: groove;border-width:1;");
-    QLabel *per2 = new QLabel("数据库连接成功", this);
+    QLabel *per2 = new QLabel("Connection to the database successful ", this);
     per2->setStyleSheet("color: green;border-style: groove;border-width:1;");
     //QLabel *per3 = new QLabel("Ready3", this);
     statusBar()->addPermanentWidget(per1); //现实永久信息
