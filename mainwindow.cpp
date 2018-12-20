@@ -370,6 +370,7 @@ void MainWindow::on_btn_start_camera_clicked()
 
 
     //注册图像处理回调函数
+    //this->On
     emStatus = GXRegisterCaptureCallback(m_hDevice, NULL, this->OnFrameCallbackFun);
     //发送开采命令
     emStatus = GXSendCommand(m_hDevice, GX_COMMAND_ACQUISITION_START);
